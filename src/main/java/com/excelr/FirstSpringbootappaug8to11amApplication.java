@@ -1,0 +1,20 @@
+package com.excelr;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+@SpringBootApplication
+public class FirstSpringbootappaug8to11amApplication {
+
+	public static void main(String[] args) {
+		
+		//IOC STARTS
+	ApplicationContext	con=SpringApplication.run(FirstSpringbootappaug8to11amApplication.class, args);
+	
+	//getBean() for Car
+	Car c1=con.getBean("carDataMtd",Car.class);
+	System.out.println(c1);
+	}
+
+}
