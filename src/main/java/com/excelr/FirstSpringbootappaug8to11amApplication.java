@@ -15,6 +15,9 @@ public class FirstSpringbootappaug8to11amApplication {
 	//getBean() for Car
 	Car c1=con.getBean("carDataMtd",Car.class);
 	System.out.println(c1);
+	
+	
+	System.out.println("Happy new year");
 	}
 
 }
