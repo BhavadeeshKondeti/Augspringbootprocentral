@@ -18,9 +18,15 @@ public class FirstSpringbootappaug8to11amApplication {
 	
 	
 	System.out.println("Happy new year");
+<<<<<<< Updated upstream
 			System.out.println("Thanks and same to you");
 
 		System.out.println("what is your plan??");
+=======
+	System.out.println("Thanks and same to you");
+			
+	System.out.println("Going to home town....");
+>>>>>>> Stashed changes
 	}
 
 }
